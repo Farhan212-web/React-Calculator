@@ -1,0 +1,8 @@
+html, body {
+  height: 100%;
+  background-color: hsl(222, 26%, 31%);
+}
+
+.App {
+    color: white;
+}
