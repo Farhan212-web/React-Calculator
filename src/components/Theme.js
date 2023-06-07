@@ -6,7 +6,7 @@ const Theme = () => {
 
     return (
         <div className="theme">
-            <h2>Theme</h2>
+            <h2 style={{paddingRight:"20px"}}>Theme</h2>
             <div className="theme-slider">
                 <div className="theme-buttons">
                     <button>1</button>
