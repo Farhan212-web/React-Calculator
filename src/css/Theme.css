@@ -19,7 +19,7 @@
     justify-content: space-evenly;
 }
 
-button {
+.theme button {
     background: none;
 	color: inherit;
 	border: none;
@@ -27,4 +27,8 @@ button {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+}
+
+button:hover {
+    opacity: .7;
 }

@@ -1,0 +1,29 @@
+.buttons-grid {
+    padding: 20px;
+    width: 65%;
+    background-color: hsl(224, 36%, 15%);
+    margin: auto;
+    margin-top: 30px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: center;
+    column-gap: 25px;
+    row-gap: 25px;
+    color: hsl(221, 14%, 31%);
+}
+
+button {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.standard-btn {
+    height: 50px;
+    background-color: hsl(30, 25%, 89%);
+    width: 90px;
+}
+
+.standard-btn:hover {
+    background-color: hsl(224, 28%, 35%);
+}
